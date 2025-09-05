@@ -31,7 +31,7 @@
 
   <!-- chapter 6-9 
    05-->
-<label for="">
+<!-- <label for="">
   subject 1:
 </label>
 <br><br>
@@ -42,16 +42,16 @@
 </label><br><br>
 <br>
 <input type="text" id="sub2"><br>
-<br>
-<label for="">
+<br> -->
+<!-- <label for="">
   subject 3:
 </label>
 <br><br>
 <input type="text" id="sub3">
 <br><br>
 <label for="">Marks in subject 1</label>
-<br><br>
-
+<br><br> -->
+<!-- 
 <input type="number" id="marks1">
 <br><br>
 <label for="">Marks in subject 2</label><br>
@@ -59,40 +59,17 @@
 <input type="number" id="marks2">
 <br><br>
 <label for="" >Marks in subject 3</label> <br>
-<br>
-<input type="number" id="marks3">
+<br> -->
+<!-- <input type="number" id="marks3">
 <br>
 <br>
 <button onclick="showResult()">Calculate</button><br>
 <br><br>
 <h2>Result: </h2>
-<div id="output"></div>
+<div id="output"></div> -->
 <script src="app.js">
 
-function showResult() {
-  var s1 = document.getElementById("sub1").value;
-  var s2 = document.getElementById("sub2").value;
-  var s3 = document.getElementById("sub3").value;
- 
-  var m1 = number(document.getElementById("marks1").value);
-    var m2 = number(document.getElementById("marks2").value);
-    var m3 = number(document.getElementById("marks3").value);
-  
 
-    var totalMarks = 1100;
-    var obtained = m1+ m2+m3;
-    var percentage= math.round ((obtained/totalMarks)*100)
-
-    document.getElementById("output").innerHTML= 
-    "subject 1 (" +s1+"):"+m1+"marks <br>"+
-      "subject 2 (" +s2+"):"+m2+"marks <br>"+
-        "subject 3 (" +s3+"):"+m3+"marks <br>"+
-
-        "Total Marks :"+totalMarks+"<br>"+
-            "Obtained Marks:"+obtained+"<br>"+
-                "Percentage :"+percentage+"%";
-
-}
 
 
 </script>

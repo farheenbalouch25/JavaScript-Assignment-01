@@ -194,24 +194,32 @@
 // document.write(one_Ticket*five_Ticket)
 
 // 07
-// var num = 6;
-// document.write("Multiplication Table :");
 
-// for(var i = 1; i <=10; i++) {
-//     document.write(num + "x" +i+ "=" +(num *i) +"<br>" )
-// }
+// var userInput= +prompt("Enter input");
+// document.write( userInput, "x 1 = " , userInput * 1 ,"<br>",
+//     userInput, "x 2 =  " , userInput * 2 ,"<br>",
+//     userInput, "x 3 = " , userInput * 3 ,"<br>",
+//     userInput, "x 4 = " , userInput * 4 ,"<br>",
+//     userInput, "x 5 = " , userInput * 5 ,"<br>",
+//     userInput, "x 6 = " , userInput * 6 ,"<br>",
 
+//     userInput, "x  7= " , userInput * 7 ,"<br>",
+//     userInput, "x 8 = " , userInput * 8 ,"<br>",
+//     userInput, "x 9 = " , userInput * 9 ,"<br>",
+//     userInput, "x 10 = " , userInput * 10 ,"<br>",
+// );
 
 // 08
 
-// var F = 70;
-// var C = (F-32)*5/9;
-// document.write("celsius :" +C+ "<br>");
+// var CelsiusTemp = prompt("Enter Celsius Temperature");
 
-// var c= 25;
-// var f=( c * 9/5)+32;
-// document.write("Fahrenheit: "+f)
+// var FahrenheitTemp = prompt("Enter Fahrenheit Temperature");
+ 
+// var convertF = ( CelsiusTemp * 9/5)+32;
+// var convertC = ( FahrenheitTemp -32)* 5/9;
 
+// console.log("Fahrenheit :"+ convertF)
+// console.log("Celsiust :"+ convertC)
 
 // 09
 // var  price_item1= 400;
@@ -308,6 +316,7 @@
 //  prompt("name")
    
 // 04
+
 // var num = prompt("enter a number for multiplication table :" , "5");
 // if (num ===null || num === "" || isNaN (num) ){
 //     num = 5;
@@ -317,10 +326,20 @@
 //     num = number(num);
 
 // }
-// document.write("multiplication table of "+num )
-// for (var i = 1; i<= 10 ; i++){
-//     document.write(num + " x " + i+ "=" + (num * i)+ "<br>")
-// }
+// document.write("multiplication table of "+num +"<br> ");
+//  if (true){
+//         document.write(num + " x 1 = " + (num * 1) + "<br>");
+//     document.write(num + " x 2 = " + (num * 2) + "<br>");
+//     document.write(num + " x 3 = " + (num * 3) + "<br>");
+//     document.write(num + " x 4 = " + (num * 4) + "<br>");
+//     document.write(num + " x 5 = " + (num * 5) + "<br>");
+//     document.write(num + " x 6 = " + (num * 6) + "<br>");
+//     document.write(num + " x 7 = " + (num * 7) + "<br>");
+//     document.write(num + " x 8 = " + (num * 8) + "<br>");
+//     document.write(num + " x 9 = " + (num * 9) + "<br>");
+//     document.write(num + " x 10 = " + (num * 10) + "<br>");  
+//  }
+
 
 
 
